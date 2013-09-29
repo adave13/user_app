@@ -19,3 +19,5 @@ In order to get this running you need to go into the <code>config/database.yml</
 Then you have to run <code>$ bundle install</code>, <code>$ bundle exec rake db:migrate</code> in terminal to get it going.  Then you can run <code>$ rails s</code> and have the building blocks of a user based application.
 
 I was using rspec for testing like Hartl. This was put together with the Rails 3.9.2 version of the book.
+
+NOTE: You probably want to go to the <code>.gitignore</code> file and add the <code>config/database.yml</code>. This will prevent your local database and username from being on your github repo.
